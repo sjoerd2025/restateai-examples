@@ -86,14 +86,13 @@ Restate integrates with popular Agent SDKs and with all LLM SDKs (only abstracti
 | **Notify when ready**: Callback when agent completes | [📖](https://docs.restate.dev/ai/patterns/notify-when-ready) | -                 | - | [<img src="https://skillicons.dev/icons?i=python&theme=light" width="24" height="24">](openai-agents/examples/notify_when_ready/agent.py) | - | - | - |
 
 
-## More Examples & Integrations
+## Integrations
 
-| Example | Code |
-|---------|------|
-| **NextJS Template**: Minimal example of Restate + AI SDK + NextJS | [<img src="https://skillicons.dev/icons?i=ts&theme=light" width="24" height="24">](vercel-ai/nextjs-template/README.md) |
-| **NextJS Example App**: Example app of Restate + AI SDK + NextJS with tools, chat, pubsub,... | [<img src="https://skillicons.dev/icons?i=ts&theme=light" width="24" height="24">](vercel-ai/nextjs-example-app/README.md) |
-| **MCP**: Using Restate for exposing tools and resilient orchestration of tool calls | [<img src="https://skillicons.dev/icons?i=ts&theme=light" width="24" height="24">](mcp/README.md) |
-| **A2A**: Implement Google's Agent-to-Agent protocol with Restate as resilient, scalable task orchestrator | [<img src="https://skillicons.dev/icons?i=python&theme=light" width="24" height="24">](a2a/README.md) |
+### Protocols
+| Example                                                                                                                                                      | Code |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
+| **MCP**: Using Restate for exposing tools and resilient orchestration of tool calls                                                                          | [<img src="https://skillicons.dev/icons?i=ts&theme=light" width="24" height="24">](mcp/README.md) |
+| **A2A**: Implement Google's Agent-to-Agent protocol with Restate as resilient, scalable task orchestrator                                                    | [<img src="https://skillicons.dev/icons?i=python&theme=light" width="24" height="24">](a2a/README.md) |
 
 ### AI Observability
 
@@ -103,6 +102,23 @@ Restate integrates with popular Agent SDKs and with all LLM SDKs (only abstracti
 | **Arize Phoenix**    | -                                                                                                                                                 | [<img src="https://skillicons.dev/icons?i=python&theme=light" width="20" height="20">](openai-agents/examples/arize_phoenix/README.md)               | -                                                                                                                                                | -                                                                                                                                                 |
 | **Pydantic LogFire** | -                                                                                                                                                      | -                                                                                                                                                     | -                                                                                                                                                | [<img src="https://skillicons.dev/icons?i=python&theme=light" width="20" height="20">](pydantic-ai/examples/logfire/README.md)                    |
 | **Braintrust**       | [<img src="https://skillicons.dev/icons?i=ts&theme=light" width="20" height="20">](typescript-restate-only/examples/braintrust/README.md)             | -                                                                                                                                                     | -                                                                                                                                                | -                                                                                                                                                 |
+
+### Others
+
+| Example                                                                                                                                                      | Code |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
+| **NextJS Template**: Minimal example of Restate + AI SDK + NextJS                                                                                            | [<img src="https://skillicons.dev/icons?i=ts&theme=light" width="24" height="24">](vercel-ai/nextjs-template/README.md) |
+| **NextJS Example App**: Example app of Restate + AI SDK + NextJS with tools, chat, pubsub,...                                                                | [<img src="https://skillicons.dev/icons?i=ts&theme=light" width="24" height="24">](vercel-ai/nextjs-example-app/README.md) |
+
+## Advanced Examples
+
+Larger, end-to-end applications (in separate repos) showing how Restate holds up in real-world agentic systems.
+
+| Example                                                                                                                                                      | Code |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
+| **Coding agent**: orchestrates multi-turn conversations and coordinates subagents over sandboxed task execution                                              | [<img src="https://skillicons.dev/icons?i=ts&theme=light" width="24" height="24">](https://github.com/igalshilman/agent47) |
+| **Deep Research Agent**: Autonomous multi-day research agent (news digests, human-approved plans, parallel investigations) with Restate + LangChain + Tavily | [<img src="https://skillicons.dev/icons?i=python&theme=light" width="24" height="24">](https://github.com/gvdongen/resilient-research-agent) |
+| **Supervisor Agent**: Supervisor pattern with policy gates, audit trails, and escalation ladders for security remediation workflows                          | [<img src="https://skillicons.dev/icons?i=ts&theme=light" width="24" height="24">](https://github.com/gvdongen/resilient-supervisor-agent) |
 
 ## Supported Languages
 
